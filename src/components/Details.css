@@ -1,0 +1,820 @@
+.details{
+}
+.details-container{
+  background-color: #000;
+}
+.details .video-app{
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin: 4rem;
+  
+  
+}
+
+.details .video-app .big-video{
+
+ margin-left: 6rem;
+}
+
+
+.details .CardDetails {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    cursor: pointer;
+    margin:1rem 4.5rem;
+    background-color: #000;
+    width: 45rem; 
+   
+}
+
+
+.details .CardDetails .img-box{
+    width: 22rem;
+    height: 12rem;
+    position: relative;
+}
+
+.details .CardDetails .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.details .CardDetails .img-box  span{
+  position: absolute;
+  right: .2rem;
+  bottom: .2rem;
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0 .3rem;
+}
+
+
+.details  .content {
+
+    }
+
+.details  .content p:first-of-type{
+color: #000;
+font-weight: 600;
+
+  }
+
+  .details  .content p:last-of-type{
+    color: #000;
+    font-weight: 600;
+      }
+      .details  .content p:last-of-type strong{
+        margin: 0 .8rem;
+        background-color: rgb(212, 211, 211);
+
+           }    
+         
+               .details  .content p:last-of-type span{
+                font-size: 1.6rem;
+                cursor: pointer;
+                   }
+      .details  .content p:last-of-type span:first-of-type{
+       position: relative;
+          }
+          .details  .content p:last-of-type span:first-of-type::after{
+            content: '';
+            position: absolute;
+            background-color: #666;
+            border-radius: 1rem;
+            width: .3rem;
+            height: .3rem;
+            top: 50%;
+            right:   -1.1rem;
+
+               }
+           
+        
+
+/*chunnel and subscribe*/
+               .details .video-app .big-video .channel-app {
+           
+              
+                
+            
+              }
+           
+            
+              .details .video-app .big-video .channel-app .button-app{
+      
+              }
+              .details .video-app .big-video .channel-app .button-app a{
+                text-decoration: none;
+              }
+              .details .video-app .big-video .channel-app .button-app button{
+               text-decoration: none;
+               padding: 2rem 6rem;
+               background-color: rgb(184, 46, 46);
+               color: #fff;
+               font-size: 1.8rem;
+               font-weight: 600;
+            
+              }
+
+
+              .details .video-app .big-video .channel-app .info-app{
+               display: flex;
+               align-items: center;
+               gap: 1rem;
+               position: relative;
+               padding: 2rem 0 4rem;
+              }
+          
+              
+
+              .details .video-app .big-video .channel-app .info-app  .button-app{
+                display: flex;
+                position: absolute;
+                right: 0;
+            
+         
+              }
+              .details .video-app .big-video .channel-app .info-app  .button-app button{
+            padding: 1rem 2rem;
+            background-color: red;
+            font-size: 1.4rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.0.1rem;
+            
+         
+              }
+
+              .details .video-app .big-video .channel-app .info-app .box p{
+                margin: 0;
+             
+               }
+               .details .video-app .big-video .channel-app .info-app  p.show-more{
+               font-size: 1.2rem;
+               font-weight: 600;
+               color: #555;
+               text-transform:uppercase;
+               margin:1rem 0 0 0;
+              cursor: pointer;
+             
+
+                
+             
+               }
+               .details .video-app .big-video .channel-app .info-app .box p:first-of-type{
+               font-weight: 600;
+               color: #000;
+               font-size: 1.2rem;
+               }
+               .details .video-app .big-video .channel-app .info-app .box p:nth-child(2){
+                color: #666;
+                font-size: 1.2rem;
+                }
+              .details .video-app .big-video .channel-app .info-app .sm-img-app{
+                width: 5rem;
+              height:5rem;
+            
+              } 
+
+              .details .video-app .big-video .channel-app .info-app .sm-img-app img{
+                width: 100%;
+               height: 100%;
+               border-radius: 100%;
+               object-fit: cover;
+               cursor: pointer;
+               
+              }
+                        
+/*chunnel and subscribe*/
+
+
+
+
+
+
+
+
+
+/*cards in right*/
+
+  .details .CardDetails .h2-app-three-points{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem 1rem;
+  }
+  
+
+  .details .CardDetails .h2-app-three-points .h2-app{
+    display: flex;
+    flex-wrap: wrap;
+   margin-left: 1rem;
+   
+     
+   }
+
+   .details .CardDetails .h2-app-three-points  .h2-app h2{
+    font-size: 1.4rem;
+    color: #000;
+    padding: 0 0rem;
+    text-align:justify;
+    display: flex;
+    flex-wrap: wrap;
+    
+   }
+
+
+   .details .CardDetails .h2-app-three-points .h2-app .p-app{
+    margin: 0;
+    padding: 0;
+    
+    
+    }
+    .details .CardDetails .h2-app-three-points .h2-app .p-app p{
+     margin: 0;
+     padding: 0;
+     font-size: 1.2rem;
+     color: #606060;
+     text-align: justify;
+     cursor: pointer;
+     
+     }
+  
+     .details .CardDetails .h2-app-three-points .h2-app .p-app p:first-of-type{
+     
+       text-transform: capitalize;
+       font-weight: 500;
+       }
+       .details .CardDetails .h2-app-three-points.h2-app .p-app p:first-of-type:hover{
+     
+         color: #333;
+         }
+         .details .CardDetails .h2-app-three-points .h2-app .p-app p:last-of-type{
+     
+       
+       }
+       .details .CardDetails .h2-app-three-points .p-app p:last-of-type span:first-of-type{ 
+           position: relative;
+           margin-right: 1rem;
+       
+       }
+       .details .CardDetails .h2-app-three-points .h2-app .p-app p:last-of-type span:first-of-type:after{
+         content: '';
+         position: absolute;
+         right: -.7rem;
+         top: .8rem;
+         width: .3rem;
+         height: .3rem;
+         border-radius: 1rem;
+         background-color: #666;
+        
+       
+       }
+       .details .CardDetails .h2-app-three-points .tree-points-app{
+     padding-left:1rem
+ 
+     
+    }
+ 
+    .details .CardDetails .h2-app-three-points .tree-points-app i{
+     font-size: 1.4rem;
+     color: #606060;
+    }
+
+
+
+/*cards in right*/
+
+
+
+
+
+
+
+
+
+
+
+/*name of song and views and date and jame and share....*/
+
+
+    .details .video-app .big-video .col-sm-12{
+      margin: 2rem 0;
+  }
+
+  .details .video-app .big-video .content {
+    text-align: left;
+ 
+   }
+
+ .details .video-app .big-video .content p:first-of-type {
+     font-size: 2rem;
+     color: #000;
+  
+    }
+  
+    .details .video-app .big-video .content p:last-of-type {
+      font-size: 1.4rem;
+      color: rgb(109, 109, 109);
+      
+     }
+   
+    .details .video-app .big-video  .icons {
+      margin-top: 4.5rem;
+     }
+     .details .video-app .big-video  .icons p{
+      cursor: pointer;
+      display: inline-block;
+      }
+    .details .video-app .big-video  .icons i{
+      margin: 0 1.5rem;
+      font-size: 2rem;
+      cursor: pointer;
+      }
+   
+  
+   
+      .details .video-app .big-video  .icons span{
+        margin-right: 1rem;
+        cursor: pointer;
+       
+        }  
+
+
+
+/*name of song and views and date and jame and share....*/
+
+
+
+
+
+
+
+
+
+/*comments*/
+
+.details .video-app .big-video .comment{
+width: 100%;
+ 
+}
+
+.details .video-app .big-video .comment .number-comment{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+ 
+
+}
+
+.details .video-app .big-video .comment .number-comment p:first-child{
+ 
+  color: #000;
+  font-size: 1.8rem;
+  margin-right: 3rem;
+ 
+   
+  }
+.details .video-app .big-video .comment .number-comment .sort-by{
+cursor: pointer;
+display: flex;
+
+ }
+
+ .details .video-app .big-video .comment .number-comment .sort-by i{
+ /* line-height:-4rem;*/
+  font-size: 2rem;
+  margin-right: 1rem;
+ 
+ 
+}
+
+.details .video-app .big-video .comment .number-comment .sort-by p{
+
+
+font-size: 1.5rem;
+text-transform: uppercase;
+font-weight: 600;
+
+
+}
+
+
+.details .video-app .big-video .comment .our-comment{
+
+ width: 100%;
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+ margin-top: 1rem;
+
+  
+  }
+
+  .details .video-app .big-video .comment .our-comment .comment-img{
+ 
+    width: 4rem ;
+     height: 4rem;
+    
+  
+    } 
+
+    .details .video-app .big-video .comment .our-comment .comment-img img{
+      width: 100%;
+     height: 100%;
+     border-radius: 100%;
+     object-fit: cover;
+    cursor: pointer;
+    margin-top: -2rem;
+  
+
+     
+    }
+
+  
+    .details .video-app .big-video .comment .our-comment .comment-input {
+      width: 100%;
+     
+    }
+  
+ 
+    .details .video-app .big-video .comment .our-comment .comment-input input{
+      transition: all .3s linear;
+      text-align: left;
+      border-bottom: .2rem solid #aaaaaa;
+      width: 100%;
+      border-radius: .1rem;
+      font-size: medium;
+    }
+
+    .details .video-app .big-video .comment .our-comment .comment-input input:focus{
+      border-bottom:.2rem solid  black;
+      border-width:100% ;
+     
+    }
+ 
+
+
+    .details .video-app .big-video .comment .our-comment .comment-input .comment-imoji-btn-app{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    opacity: 0;
+    
+    }
+
+    
+
+      .details .video-app .big-video .comment .our-comment .comment-input .comment-imoji-btn-app .comment-imoji i{
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        }
+
+        .details .video-app .big-video .comment .our-comment .comment-input .comment-imoji-btn-app .comment-btn{
+          margin-top: 1rem;
+          }
+
+          .details .video-app .big-video .comment .our-comment .comment-input .comment-imoji-btn-app .comment-btn button{
+              font-size: 1.4rem;
+              text-transform: uppercase;
+              background-color: transparent;
+              margin: 0 0 0 1em;
+              font-weight: 600;
+              color: #555;
+              padding: .8rem 1.6rem;
+              border-radius: .2rem;
+            }
+
+            .details .video-app .big-video .comment .our-comment .comment-input .comment-imoji-btn-app .comment-btn button:last-of-type{
+              background-color: rgb(230, 230, 230);
+              cursor:default;
+            }
+
+            .details .video-app .big-video .comment .our-comment .comment-input .comment-imoji-btn-app .comment-btn button:last-of-type.active{
+             background: rgb(10, 86, 172);
+             cursor: pointer;
+             color: #fff;
+           
+            }
+            /*jquery*/
+
+            .details .video-app .big-video .comment .all-comments{
+              width: 100%;
+              
+             }
+    
+             .details .video-app .big-video .comment .all-comments .comment-row{
+            display: flex;
+            gap: 1rem;
+            margin: 0 0 2rem;
+            
+            }
+        
+            .details .video-app .big-video .comment .all-comments .comment-row .sm-img-app{
+              height: 4rem;
+              width: 4rem;
+              }
+        
+              .details .video-app .big-video .comment .all-comments .comment-row .sm-img-app img{
+                width: 100%;
+               height: 100%;
+               border-radius: 100%;
+               object-fit: cover;
+              cursor: pointer;
+              }
+
+              .details .video-app .big-video .comment .all-comments .comment-row .content{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+              }
+
+              .details .video-app .big-video .comment .all-comments .comment-row .content .name-second{
+                display: flex;
+                align-items: center;
+                gap: .3rem;
+                
+              }
+              .details .video-app .big-video .comment .all-comments .comment-row .content .name-second p{
+                margin: 0;
+               cursor: pointer;
+              }
+              .details .video-app .big-video .comment .all-comments .comment-row .content .name-second p:first-of-type{
+                font-size: 1.6rem;
+                
+              }
+              .details .video-app .big-video .comment .all-comments .comment-row .content .name-second p:last-of-type{
+                font-size: 1.4rem;
+                color: rgb(119, 119, 119);
+                font-weight: 400;
+                
+              }
+              .details .video-app .big-video .comment .all-comments .comment-row .content .me-comment{
+                display:flex;
+                align-items:center;
+                justify-content: space-between;
+                width: 100%;
+              }
+              .details .video-app .big-video .comment .all-comments .comment-row .content .me-comment p{
+                color: #000;
+                font-weight: 400;
+                margin: 0;
+                font-size: 1.6rem;
+              }
+              .details .video-app .big-video .comment .all-comments .comment-row .content .me-comment i{
+                display:none;
+                cursor: pointer;
+                font-size: 1.8rem;
+              }
+              .details .video-app .big-video .comment .all-comments .comment-row:hover .me-comment i{
+                display:block;
+                transition: all 1s;
+                
+
+              }
+        
+           
+             
+              .details .video-app .big-video .comment .all-comments .comment-row .icons{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 0;
+              }
+              .details .video-app .big-video .comment .all-comments .comment-row .icons i{
+                font-size: 1.6rem;
+              }
+              .details .video-app .big-video .comment .all-comments .comment-row .icons i:nth-child(2){
+                margin: 0 2rem;
+              }
+
+              .details .video-app .big-video .comment .all-comments .comment-row .icons p{
+                font-weight: 400;
+                text-transform: uppercase;
+                cursor: pointer;
+                
+              }
+/*comments*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .details     .cards{
+      /*margin: 7rem 8rem;*/
+      display: block;
+      flex-direction: column;
+      padding: 0;
+      margin-left:0;
+
+      
+   
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .cards-d .card{
+    /*width: 30rem;*/
+  cursor: pointer;
+  margin:1rem 4.5rem ;
+  margin-top: 0;
+  width: 45rem;
+  margin-bottom: 2rem;
+  }
+
+        
+        .cards-d .card .link{
+          display: flex;
+          justify-content: space-between;
+        color: none;
+        text-decoration: none;
+        background-color: transparent;
+        }
+        
+      .cards-d .card .img-app{
+          width:18rem;
+    height: 10rem;
+    position: relative;
+        }
+        
+      .cards-d .card .img-app img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+            
+        }
+      .cards-d .card .img-app  span{
+          position: absolute;
+          right: .2rem;
+          bottom: .2rem;
+          background-color: #000;
+          color: #fff;
+          font-weight: 500;
+          font-size: 1.2rem;
+          padding: 0 .3rem;
+        }
+     .cards-d .card.sm-img-h2-app-three-points{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          padding: 1rem 1rem;
+        }
+        
+      .cards-d .card .sm-img-h2-app-three-points .sm-img-app{
+            max-width: 3.6rem;
+           max-height:3.6rem;
+           display: none;
+        
+          }
+        
+          .cards-d .card .sm-img-h2-app-three-points .sm-img-app img{
+            width: 100%;
+           height: 100%;
+           border-radius: 50%;
+           object-fit: cover;
+          }
+        
+
+          .cards-d .card .sm-img-h2-app-three-points .h2-app{
+           display: flex;
+            flex-wrap: wrap;
+          margin-left: 1rem;
+            
+          }
+        
+          .cards-d .card.sm-img-h2-app-three-points .h2-app h2{
+            font-size: 1.4rem;
+    color: #000;
+    padding: 0 0rem;
+    text-align:justify;
+    display: flex;
+    flex-wrap: wrap;
+           
+           }
+        
+          .cards-d .card .sm-img-h2-app-three-points .h2-app .p-app{
+           margin: 0;
+           padding: 0;
+           
+           }
+           .cards-d .card .sm-img-h2-app-three-points .h2-app .p-app p{
+            margin: 0;
+            padding: 0;
+            font-size: 1.2rem;
+            color: #606060;
+            text-align: justify;
+            cursor: pointer;
+            }
+         
+            .cards-d .card.sm-img-h2-app-three-points .h2-app .p-app p:first-of-type{
+            
+              text-transform: capitalize;
+              font-weight: 500;
+              }
+             .cards-d .card .sm-img-h2-app-three-points .h2-app .p-app p:first-of-type:hover{
+            
+                color: #333;
+                }
+            .cards-d .card .sm-img-h2-app-three-points .h2-app .p-app p:last-of-type{
+            
+              
+              }
+             .details  .card .sm-img-h2-app-three-points .h2-app .p-app p:last-of-type span:first-of-type{ 
+                  position: relative;
+                  margin-right: 1rem;
+              
+              }
+            .cards-d .card .sm-img-h2-app-three-points .h2-app .p-app p:last-of-type span:first-of-type:after{
+                content: '';
+                position: absolute;
+                right: -.7rem;
+                top: .8rem;
+                width: .3rem;
+                height: .3rem;
+                border-radius: 1rem;
+                background-color: #666;
+               
+              
+              }
+          .cards-d .card .sm-img-h2-app-three-points .tree-points-app{
+            padding-left:1rem
+        
+            
+           }
+        
+         .cards-d .card .sm-img-h2-app-three-points .tree-points-app i{
+            font-size: 1.4rem;
+            color: #606060;
+           
+        }
+        
+        
+       .cards-d .card .channel-watched-app{
+         
+         padding: 0;
+         margin: 0;
+         text-align: justify;
+         padding-left: 4rem;
+         
+         }
+       .cards-d .card .channel-watched-app p{
+         
+        
+          padding-left: 4rem;
+          
+          }
+         
+
+
+
+
+
+
+
+
+
+
+ .details .video-app .big-video .icons{
+ }      
+
+ .details .video-app .big-video .icons i{
+   font-size: 2rem;
+   margin-left: .5rem;
+   margin-right: .5rem;
+}      
+
+.details .video-app .big-video .icons span{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}      

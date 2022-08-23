@@ -1,0 +1,153 @@
+
+.Card{
+  /*width: 30rem;*/
+cursor: pointer;
+/*margin:1rem 4.5rem ;
+*/
+width: 35rem;
+}
+
+.Card .link{
+color: none;
+text-decoration: none;
+background-color: transparent;
+}
+
+.card .img-app{
+    width: 100%;
+    height: 16rem;
+    position: relative;
+}
+
+.card .img-app img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.card .img-app  span{
+  position: absolute;
+  right: .2rem;
+  bottom: .2rem;
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0 .3rem;
+}
+.card .sm-img-h2-app-three-points{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+
+.card .sm-img-h2-app-three-points .sm-img-app{
+    max-width: 3.6rem;
+   max-height:3.6rem;
+
+  }
+
+  .card .sm-img-h2-app-three-points .sm-img-app img{
+    width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   object-fit: cover;
+  }
+
+  .card .sm-img-h2-app-three-points .h2-app{
+   display: flex;
+   flex-wrap: wrap;
+  margin-left: 1rem;
+    
+  }
+
+  .card .sm-img-h2-app-three-points .h2-app h2{
+    font-size: 1.4rem;
+    color: #000;
+    padding: 0 0rem;
+    text-align:left;
+    display: flex;
+    flex-wrap: wrap;
+   
+   }
+
+   .card .sm-img-h2-app-three-points .h2-app .p-app{
+   margin: 0;
+   padding: 0;
+   
+   }
+   .card .sm-img-h2-app-three-points .h2-app .p-app p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #606060;
+    text-align: justify;
+    cursor: pointer;
+    
+    }
+ 
+    .card .sm-img-h2-app-three-points .h2-app .p-app p:first-of-type{
+    
+      text-transform: capitalize;
+      font-weight: 500;
+      }
+      .card .sm-img-h2-app-three-points .h2-app .p-app p:first-of-type:hover{
+    
+        color: #333;
+        }
+      .card .sm-img-h2-app-three-points .h2-app .p-app p:last-of-type{
+    
+      
+      }
+      .card .sm-img-h2-app-three-points .h2-app .p-app p:last-of-type span:first-of-type{ 
+          position: relative;
+          margin-right: 1rem;
+      
+      }
+      .card .sm-img-h2-app-three-points .h2-app .p-app p:last-of-type span:first-of-type:after{
+        content: '';
+        position: absolute;
+        right: -.7rem;
+        top: .8rem;
+        width: .3rem;
+        height: .3rem;
+        border-radius: 1rem;
+        background-color: #666;
+       
+      
+      }
+   .card .sm-img-h2-app-three-points .tree-points-app{
+    padding-left:1rem
+
+    
+   }
+
+   .card .sm-img-h2-app-three-points .tree-points-app i{
+    font-size: 1.6rem;
+    color: #606060;
+   opacity: 0;
+   transition: none;
+   
+}
+.card:hover .sm-img-h2-app-three-points .tree-points-app i{
+ 
+ opacity: 1;
+ 
+}
+
+.card  .channel-watched-app{
+ 
+ padding: 0;
+ margin: 0;
+ text-align: justify;
+ padding-left: 4rem;
+ 
+ }
+ .card  .channel-watched-app p{
+ 
+
+  padding-left: 4rem;
+  
+  }
+ 
